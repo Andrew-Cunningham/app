@@ -1,0 +1,116 @@
+/*.papadiv{
+  width: 100%;
+  height: 100vh;
+  background-color: green;
+}
+.header{
+  width: 100%;
+  height: 100px;
+  background-color: red;
+}
+.shelfholder{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.shelf{
+  width: 55%;
+  height: 80px;
+  background-color: white;
+  margin: 10px;
+}*/
+
+.App {
+  
+ color:white;
+  font-family: "open sans";
+  font-weight: bold;
+  font-size: xx-large;
+  
+ 
+ 
+
+ 
+
+}
+
+
+
+.App{
+  display: grid;
+  grid-template-columns: 6;
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.App-header {
+  background-color: #AB2918 ;
+  grid-column: 1 / 6;
+  grid-row: 1/2; 
+}
+.App-logo{
+  margin-left: 20%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+
+
+}
+
+
+.ShelfA{
+  border-radius: 10px;
+  background-color: #d34735 ;
+  grid-column: 2 / 5;
+  grid-row: 2 / 3;
+  
+}
+
+.ShelfAText{
+margin-left: 20%;
+position: relative;
+top: 50%;
+transform: translateY(-50%); 
+}
+
+.ShelfB{
+  border-radius: 10px;
+  background-color: #d34735 ;
+  grid-column: 2/5;
+  grid-row: 3 / 4;
+}
+.ShelfBText{
+  
+ margin-left: 20%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  }
+
+.ShelfC{
+  border-radius: 10px;
+  background-color: #d34735 ;
+  grid-column: 2/5;
+  grid-row: 4/5;
+}
+.ShelfCText{
+  margin-left: 20%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  }
+
+.ShelfD{
+  border-radius: 10px;
+  background-color: #d34735 ;
+  grid-column: 2/5;
+  grid-row: 5/6;
+}
+.ShelfDText{
+  margin-left: 20%;
+  position: relative;
+top: 50%;
+transform: translateY(-50%);
+  }
+
+  
